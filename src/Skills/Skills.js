@@ -14,27 +14,40 @@ export default function Skills() {
   useEffect(() => {
       const container = ".tagcloudanimation";
       const texts = [
-        "HTML",
+		"HTML5",
         "CSS",
-        "C",
-        "JavaScript",
-        "React",
-        "Java",
-        "python",
+        "SASS",
+		"NEXTjs",
+        "PHP",
+        "Laravel",
         "NodeJS",
-        "R",
-        "SQL",
-        "Data structure",
+		"Webpack",
+        "Babel",
+        "Jquery",
+        "ES6",
         "GIT",
         "GITHUB",
-        "express",
-        "MongoDB",
-        "Photoshop",
+		"Netlify",
+		"Vercel",
+		"Wordpress",
+		"AEM",
+		"Photoshop",
         "Illustrator",
         "After Effects",
-        "Figma",
-        "Fire-base",
-        "sanity",
+        "InDesign",
+		"Premiere Pro",
+		"XD",
+		"Audition",
+		"Figma",
+		"SharePoint",
+		"Jira",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "SQL", 
+        "MongoDB",
+        "Firebase",
+        "Material UI",
         "Tailwindcss",
         "Bootstrap",
       ];
@@ -60,16 +73,15 @@ export default function Skills() {
 
 
   return (
-    <div className='container'>
     
 
 
      
-        <div className='hidden md:flex justify-center capitalize text-2xl text-violet-900 container cursor-pointer'>
+        <div className='tagCloud_Container'>
           <span className="tagcloudanimation"></span>
         </div>
         
         
-    </div>
+    
   )
 }
