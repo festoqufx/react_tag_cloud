@@ -1,11 +1,11 @@
 // Importing the TextShpere component
-import TextShpere from "./components/TextShpere";
+// import TextShpere from "./components/TextShpere";
 import Skills from "./Skills/Skills";
 
 function App() {
   return (
     <>
-      <TextShpere />
+      {/* <TextShpere /> */}
 	  <Skills />
     </>
   );
