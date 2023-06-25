@@ -1,16 +1,8 @@
 import React,{useEffect} from 'react'
 import TagCloud from "TagCloud";
-
-
 import "../Skills/skills.css"
 
 export default function Skills() {
-
-  // scrolltoupp
-
-
-
-  // rotating 3d sphere
   useEffect(() => {
       const container = ".tagcloudanimation";
       const texts = [
@@ -59,29 +51,12 @@ export default function Skills() {
         direction: 90,
         keep: true,
       };
-
       TagCloud(container, texts, options);
-    
   }, []);
 
-  // filter fuc
- 
-  
-
-  // now mapping
-  
-
-
   return (
-    
-
-
-     
         <div className='tagCloud_Container'>
           <span className="tagcloudanimation"></span>
         </div>
-        
-        
-    
   )
 }
